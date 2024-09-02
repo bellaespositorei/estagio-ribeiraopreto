@@ -22,7 +22,6 @@ function isFibonacci(num) {
   return `O número ${num} não pertence à sequência de Fibonacci.`;
 }
 
-// Captura a entrada do usuário de forma síncrona
 const userInput = readlineSync.question(
   "Digite um numero para verificar se pertence a sequencia de Fibonacci: "
 );
